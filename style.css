@@ -1,0 +1,273 @@
+body {
+  margin: 0;
+  padding: 3rem 12rem;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  /* font-family: "Times New Roman", Courier, sans-serif; */
+  /* background-color: red; */
+}
+
+header {
+  display: flex;
+  width: 100%;
+  padding: 0 0 10px 0;
+  align-items: center;
+}
+
+.logo {
+  height: 35px;
+  margin-right: 50px;
+}
+
+.navbar {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navaction {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.navaction a {
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #33383f;
+  line-height: 25px;
+}
+
+.navbutton {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.singbtn {
+  width: 80px;
+  height: 40px;
+  color: #0070a0;
+  border: none;
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.demobtn {
+  width: 120px;
+  height: 40px;
+  top: 6px;
+  left: 20px;
+  color: #ffffff;
+  border: none;
+  background-color: #0070a0;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.frame1-section {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.frame1-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+.frame1-texts h1 {
+  margin: 0;
+  font-size: 58px;
+  /* font-family: "Fraunces", sans-serif; */
+  font-weight: 400;
+  line-height: 64px;
+  text-align: left;
+  height: 128px;
+  width: 485px;
+}
+
+.frame1-texts p {
+  display: flex;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  gap: 5px;
+}
+
+.frame1-texts div {
+  margin: 0;
+}
+
+.frame2-section {
+  margin: 40px 0;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.frame2-title {
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.sup {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15rem;
+}
+
+#focusfox {
+  width: 124px;
+  height: 33px;
+}
+
+#nowintech {
+  width: 159px;
+  height: 27px;
+}
+
+#optimer {
+  width: 148px;
+  height: 33px;
+}
+
+#carded {
+  width: 117px;
+  height: 34px;
+}
+
+.frame3-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 0;
+}
+
+.container {
+  width: 355px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.container img {
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 30px;
+  height: 55px;
+  width: 55px;
+}
+
+.container h1 {
+  margin: 0;
+  margin-left: 30px;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 30px;
+  text-align: left;
+}
+
+.container p {
+  /* margin-left: 30px; */
+  text-align: left;
+  padding-left: 30px;
+}
+
+.fast {
+  background-color: #faea73;
+}
+
+.buck {
+  background-color: #cceff6;
+}
+
+.safe {
+  background-color: #f7cedc;
+}
+
+.learn-container {
+  width: 100%;
+  margin: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.learn-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.learn-title h1 {
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: left;
+  margin: 0;
+}
+
+.learn-containers {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.l-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.l-container img {
+  height: 55px;
+  width: 55px;
+}
+
+.l-container h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 31.25px;
+  text-align: left;
+}
+
+.l-container p {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
